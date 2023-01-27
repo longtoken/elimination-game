@@ -1,7 +1,11 @@
 {
   "name": "elimination",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.1",
+  "author": {
+    "name": "keefer",
+    "email": "2278587662@qq.com"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
