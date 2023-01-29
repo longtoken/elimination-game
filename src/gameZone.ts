@@ -66,7 +66,7 @@ class GameZone {
     const total = this.col * this.row;
     this.totalScore = total / 2;
     this.range = Array.from({ length: total / 2 }, (v, k) => `${k + 1}`);
-    this.range = this.range.concat([...this.range]).sort();
+    this.range = this.range.concat([...this.range]);
   }
   private createZone() {
     const gameZone = cel('div');
